@@ -1,0 +1,470 @@
+/*STILOS NUMBER*/
+
+.number-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.number-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.number-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #33333b;
+}
+
+.number-input-group {
+  margin-bottom: 15px;
+}
+
+.number-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.number-input,
+.number-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.number-results {
+  margin-top: 20px;
+}
+
+.number-subtitle {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #33333b;
+}
+
+.number-result {
+  margin: 5px 0;
+}
+
+/* STILOS CARD */
+
+:root {
+  --primary-color: #039447;
+  --primary-hover-color: #097039;
+  --bg-color: #f9f9f9;
+  --border-color: #ccc;
+  --text-color: #333;
+  --input-bg-color: #fff;
+  --input-border-radius: 8px;
+}
+
+.box-card {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.converter-container {
+  max-width: 500px;
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background-color: var(--input-bg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.converter-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.converter-container .titulo-convert {
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-size: 24px;
+}
+
+.input-section, .output-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-convert[type="number"], .input-convert[type="text"], .select-convert {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid var(--border-color);
+  border-radius: var(--input-border-radius);
+  background-color: var(--input-bg-color);
+  transition: border 0.3s ease-in-out;
+}
+
+.input-convert[type="number"]:focus, .input-convert[type="text"]:focus, .select-convert:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.btn-convert {
+  padding: 12px 24px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: var(--input-border-radius);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-convert:hover {
+  background-color: var(--primary-hover-color);
+}
+
+@media (max-width: 600px) {
+  .converter-container {
+    padding: 15px;
+  }
+
+  .converter-container .titulo-convert {
+    font-size: 20px;
+  }
+
+  .btn-convertton {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+
+/*STILOS TEXT*/
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.text-title {
+  color: #333;
+}
+
+.text-area {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Arial, sans-serif';
+  outline: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.icon-container svg {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.icon-delete {
+  color: rgb(214, 0, 0);
+  margin-right: 5px; /* Adiciona espaço entre os ícones */
+}
+.icon-delete:hover {
+  color: rgb(172, 1, 1);
+}
+
+.icon-copy {
+  color: #039447;
+}
+.icon-copy:hover {
+  color: #097039;
+}
+.select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: 'Arial, sans-serif';
+ 
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #039447;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Arial, sans-serif';
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #097039;
+}
+
+.output-text {
+  width: 100%;
+}
+
+.output-title {
+  color: #333;
+}
+
+.output {
+  background-color: #e9ecef;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .text-container {
+    padding: 15px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .select {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .text-title, .output-title {
+    font-size: 18px;
+  }
+
+  .text-area {
+    font-size: 14px;
+  }
+
+  .select, .button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/*STILOS JSON*/
+
+
+.container-json {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4a8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-json {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.content-json {
+  margin-bottom: 20px;
+}
+
+.textarea-json {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+#btn-convert {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  width: 30px;
+  height: auto;
+  color: #02af53;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#btn-convert:hover {
+  color: #039447;
+}
+.btn-json {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #02af53;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-json:hover {
+  background-color: #039447;
+}
+
+.saida-json {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.copy-btn-json {
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  border: none;
+}
+
+.copy-json {
+  width: 30px;
+  height: auto;
+  color: #02af53;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.copy-json:hover {
+  color: #039447;
+  transform: scale(1.1);
+}
+#remove-json {
+  color: red;
+}
+#remove-json:hover {
+  color: rgb(223, 0, 0);
+}
+/*STILOS CONVERSOR IMG*/
+
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 5px;
+}
+
+.titulo-img {
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.drop-box {
+  width: 70%; /* Define a largura do quadrado */
+  height: 250px; /* Define a altura do quadrado para ser igual à largura */
+  border: 1px dashed rgba(194, 194, 194, 0.596); /* Borda tracejada */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.3s;
+}
+.drop-box:hover {
+  border: 1px dashed #039447;
+  background-color: rgba(239, 255, 241, 0.644);
+}
+.input-img {
+  opacity: 0; /* Torna o input invisível */
+  position: absolute;
+  width: 100%; /* Faz o input ocupar todo o espaço do wrapper */
+  height: 100%;
+  cursor: pointer;
+}
+
+.drop-text {
+  color: #333;
+  font-size: 14px;
+  pointer-events: none; /* Faz com que os eventos de clique passem pelo label */
+}
+
+.btn-img {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #00c75d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-img:hover {
+  background-color: #00a14b;
+}
+@media (max-width: 480px) {
+  .titulo-img {
+    font-size: 1.5rem;
+  }
+
+  .btn-img {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
