@@ -4,8 +4,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import './styles/Conversor.css';
 import { FaArrowDown } from "react-icons/fa";
 import Footer from '../Footer';
-import Anuncio from '../Anuncio';
-
 
 const Moeda = () => {
   const [valor, setValor] = useState("");
@@ -82,7 +80,6 @@ const Moeda = () => {
           </div>
         </div>
       </div>
-      <Anuncio />
       <ToastContainer />
       <Footer />
     </>
