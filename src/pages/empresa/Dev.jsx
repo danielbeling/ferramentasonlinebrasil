@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Banner from '../../img/banner.webp';
 import Footer from '../Footer';
 import './styles/Empresa.css'
 
@@ -20,7 +20,7 @@ const Dev = () => {
             <div className="dev_eng">
               <div className="dev_img_wrapper">
                 <img
-                  src="https://i.pinimg.com/236x/2c/5a/0e/2c5a0eab64ce68666597b1e9cd9addd4.jpg"
+                  src={Banner}
                   alt=""
                   className="dev_img"
                 />
