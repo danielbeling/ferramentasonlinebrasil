@@ -1,0 +1,178 @@
+/* Estilos base */
+.dev_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eff1f3;
+}
+
+.dev_card {
+  text-align: center;
+}
+
+.dev_content {
+  padding-bottom: 50px;
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.dev_subtitulo {
+  color: #33333b;
+  transition: all 0.3s;
+}
+.dev_subtitulo:hover {
+  color: #47474f;
+  cursor: pointer;
+}
+span {
+  color: #33333b;
+}
+.dev_text {
+  color: #47474f;
+}
+
+.dev_titulo {
+  color: #33333b;
+  font-size: 40px;
+}
+
+.dev_title {
+  color: #33333b;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.dev_img_wrapper {
+  border-radius: 50%;
+  border: 1px solid #ccccccc2;
+  position: relative;
+  display: inline-block;
+  overflow: hidden; 
+}
+
+.dev_img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+}
+
+.dev_img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+  .dev_titulo {
+    font-size: 30px; 
+  }
+  
+  .dev_title {
+    font-size: 25px; 
+  }
+}
+/* STILOS  politica */
+
+.politica {
+  background-color: #f5f5fa;
+}
+
+.privacy-policy-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.politica-h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #33333b;
+  margin-top: 100px;
+}
+
+.politica-titulo {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #33333b;
+}
+
+.politica-text {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #33333b;
+}
+#esp {
+  margin-bottom: 100px;
+}
+
+/* STILOS quemsomos */
+
+/* Estilos base */
+.Qs_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eff1f3;
+}
+
+.Qs_card {
+  text-align: center;
+}
+
+.Qs_content {
+  padding-bottom: 50px;
+  max-width: 100%;
+  width: 700px; 
+  margin: 0 auto; 
+}
+
+
+.Qs_text {
+  color: #47474f;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.Qs_titulo {
+  color: #33333b;
+  font-size: 40px;
+}
+
+.Qs_img {
+  width: 370px;
+}
+
+
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+  .Qs_content {
+   
+    width: 100%; 
+    padding: 10px;
+   
+  }
+  
+  .Qs_titulo {
+    font-size: 30px; 
+  }
+  
+  .Qs_title {
+    font-size: 25px; 
+  }
+
+  .Qs_img {
+    display: none;
+  }
+}
+
