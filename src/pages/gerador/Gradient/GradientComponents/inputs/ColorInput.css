@@ -1,0 +1,10 @@
+.color-input {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block;
+  margin-right: 0.5rem;
+}

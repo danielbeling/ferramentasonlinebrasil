@@ -1,0 +1,801 @@
+.avatar-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.avatar-nav {
+  padding: 20px;
+  color: #47474f;
+  font-size: 40px;
+}
+
+.avatar-home {
+  padding: 20px;
+}
+
+.avatar .avatar-img {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #61dafb;
+  border-radius: 50%;
+}
+
+.generate .avatar-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.generate .avatar-btn:hover {
+  background-color: #45a049;
+}
+
+/* STILOS Wifi */
+
+/* Wifi.css */
+
+.wifi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(240, 255, 240);
+}
+
+.wifi-content {
+  text-align: center;
+  border: 1px solid #a7a7a74d;
+  padding: 15px;
+  border-radius: 8px;
+  background-color:#f8f8f8;
+  box-shadow: 0 10px 30px -14px rgba(0, 0, 0, 0.116);
+}
+
+.wifi-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #47474f;
+  text-align: center;
+}
+
+.wifi-qrcode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wifi-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.wifi-input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #7b7c7c70;
+  border-radius: 5px;
+}
+
+.wifi-button,
+.wifi-download-link {
+  display: inline-block;
+  width: 200px; /* Defina o tamanho desejado */
+  text-align: center;
+  background-color: #0eb15a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Para o link */
+}
+
+.wifi-button:hover,
+.wifi-download-link:hover {
+  background-color: #039447;
+}
+/* STILOS QRCODE */
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(240, 255, 240);
+ 
+}
+.qr-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7b7c7c59;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #F8F8F8;
+}
+.qr-input {
+  height: 38px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  margin: 24px 0;
+  outline: none;
+  border: 1px solid #9495968c;
+  color: #2c2c2c;
+}
+
+.qr-link {
+  text-decoration: none;
+  color: #2c2c2c9c;
+  font-size: 18px;
+  border: 1px solid #9495968c;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.qr-link:hover {
+  color: #039447;
+}
+
+.qr-titulo {
+  font-size: 35px;
+  color: #2c2c2c;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* STILOS SENHA */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Container */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(240, 255, 240);
+    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#password_img {
+    width: 100px;
+}
+
+#title {
+ 
+    color: #24232b;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Password */
+#password_container {
+    width: 100%;
+    max-width: 400px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    color: #47474f;
+    border: 1px solid #b6b6b670;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+
+#password_container.show {
+    display: flex;
+}
+
+#password {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#copy {
+    background-color: transparent;
+    border: none;
+    color: #0aa352;
+    height: 40px;
+    width: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+#copy:hover {
+    color: #039447;
+}
+
+/* Items */
+#password_items {
+    width: 400px;
+    background-color: #F8F8F8;
+    color: #47474f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+    border: 1px solid #b6b6b670;
+}
+
+.item {
+    display: flex;
+    gap: 14px;
+}
+
+#size {
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+#size::-webkit-inner-spin-button,
+#size::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+#size:focus {
+    outline: 1px solid #0aa352;
+}
+
+#generate {
+    background-color: #0aa352;
+    border: none;
+    margin-top: 12px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#generate:hover {
+  background-color: #039447;
+}
+/* Media Queries para telas menores */
+@media screen and (max-width: 768px) {
+  #password {
+      font-size: 2vw; 
+      
+  }
+  
+  .input-senha {
+    width: 50px;
+  }
+  #copy {
+      height: 5vw; 
+      width: 4vw; 
+      font-size: 2.5vw; 
+  }
+
+  #password_items {
+      width: 80vw; 
+  }
+
+  #size {
+      width: 20vw;
+  }
+
+  #generate {
+      font-size: 2.5vw; 
+  }
+  #password_img {
+    width: 90px;
+}
+}
+
+/* STILOS NOME */
+
+.nome-container {
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.nome-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.titulo-nome {
+  color: #24232b;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.character-name-generator {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-nome {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.character-name-input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.character-name-input:focus {
+  border-color: #00b9566b;
+  outline: none;
+}
+
+.copy-btn-nome {
+  position: absolute;
+  right: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #039447;
+  transition: color 0.3s ease;
+}
+
+.copy-btn-nome:hover {
+  color: #097039;
+}
+
+.generate-button {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #039447;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #077c3e;
+}
+
+/* STILOS lorem */
+
+
+.lorem-generator {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  font-family: 'Arial, sans-serif';
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.lorem-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.lorem-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lorem-label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.lorem-input {
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.lorem-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #039447;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.lorem-button:hover {
+  background-color: #097039;
+}
+
+.lorem-generated-text {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.lorem-subtitle {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+}
+@media (max-width: 425px) {
+  .lorem-generator {
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+
+.lorem-copy {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.copy-confirmation {
+  color: rgb(0, 165, 0);
+  transition: all 0.3s ease;
+}
+.copy-confirmation:hover {
+  color: green;
+}
+
+.delete-button {
+  color: rgb(214, 0, 0);
+  margin-right: 5px; 
+  transition: all 0.3s ease;
+}
+.delete-button:hover {
+  color: rgb(172, 1, 1);
+}
+
+/* STILOS  FAKEDATA*/
+
+/* FakeDataGenerator.css */
+
+.fake-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 60px;
+}
+.copy-icon {
+  color: #28a745;
+}
+.fake-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.fake-form {
+  margin-bottom: 20px;
+}
+
+.fake-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.fake-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.fake-button:hover {
+  background-color: #218838;
+}
+
+.fake-warning {
+  color: #ff0000a8;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.fake-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fake-data-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+
+}
+
+.fake-data-item:hover {
+  transform: scale(1.05);
+}
+
+.fake-data-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.fake-data-item strong {
+  color: #333;
+}
+@media screen and (max-width: 768px) { 
+  .fake-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fake-input {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* STYLOS COLOR*/
+
+.color-container {
+  background-color: rgb(240, 255, 240);
+  padding: 50px;
+}
+.colors-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  
+}
+
+.single-card {
+  
+  width: 200px;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+.single-card .content {
+  text-align: center;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: none;
+}
+
+.single-card p {
+  margin: 0;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+.color-text {
+  color: #2c2c2c;
+}
+.color-text span{
+  color: red;
+}
+.single-card:hover {
+  transform: scale(1.05);
+}
+
+.single-card:hover .content {
+  background: rgb(240, 255, 240);
+  display: block;
+}
+
+.single-card button {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 9px;
+  width: 42px;
+  padding: 5px 6px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.copy-alert {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+}
+.copy-icon {
+  color: #2c2c2c;
+}
+.form-color {
+  text-align: center;
+  margin: 4% 0%;
+}
+
+.form-color h1 {
+  font-size: 3.5rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  color: #2c2c2c;
+}
+
+.form-color input[type="text"] {
+  font-size: inherit;
+  padding: 12px 13px;
+  outline: none;
+  border: 1px solid #7b7c7c70;
+  border-radius: 10px;
+}
+
+.form-color input[type="submit"] {
+  border: 0;
+  outline: none;
+  padding: 12px;
+  font-size: inherit;
+  border-radius: 8px;
+  background-color: #0eb15a;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.form-color input[type="submit"]:hover {
+  background-color: #039447;
+  cursor: pointer;
+}
+
+.form-color form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  width: fit-content;
+  margin: 30px auto 0px;
+  padding: 4px 11px;
+  border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .form-color h1 {
+    font-size: 35px;
+  }
+  .form-color form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-color input[type="submit"] {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .form-color input[type="text"] {
+    width: 220px;  
+  }
+  
+}
+
+
+/*STILOS GRADIENT*/
+
+.GradColor {
+  background-color:rgb(240, 255, 240);
+  padding: 50px;
+}
+
+.app-container {
+  position: relative;
+  color: #24232b;
+  max-width: 64rem;
+  margin: auto;
+  background-color: #F8F8F8; 
+  padding: 1rem;
+  border: 1px solid #a0aec0;
+  display: flex;
+}
+
+.content-container {
+  width: 50%;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  margin-bottom: 0.5rem;
+}
+
+.color-inputs {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.add-remove-color {
+  margin-bottom: 1.25rem;
+}
+

@@ -1,0 +1,12 @@
+.action-button {
+  margin-right: 0.25rem;
+  border: 1px solid #a0aec0;
+  background-color: #2d3748;
+  color: #edf2f7;
+  min-width: 40px;
+  border-radius: 0.25rem;
+}
+
+.action-button:hover {
+  background-color: #4a5568;
+}

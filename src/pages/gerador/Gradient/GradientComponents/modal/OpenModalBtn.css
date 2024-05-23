@@ -1,0 +1,17 @@
+.openModalBtn {
+  background-color: #0aa352;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  min-width: 125px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+ .openModalBtn {
+  font-size: 10px;
+  min-width: 80px
+ }
+}

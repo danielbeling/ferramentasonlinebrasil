@@ -1,0 +1,68 @@
+.overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  margin-bottom: 10vh;
+  max-width: 500px;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-weight: 600;
+  color: #374151;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.copy-button,
+.close-button {
+  font-size: 0.700rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.copy-button {
+  background-color: #0aa352;
+}
+
+.copy-button:hover {
+  background-color: #039447;
+}
+
+.close-button {
+  background-color: #ef4444;
+}
+
+.close-button:hover {
+  background-color: #dc2626;
+}
+
+.code {
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  background-color: #4b5563;
+  color: #e5e7eb;
+}
