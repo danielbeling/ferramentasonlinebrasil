@@ -845,14 +845,4 @@ textarea.input {
   }
 }
 
-.Anuncio-container {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-.Anuncio-container .anuncio-img {
-  margin: 10px;
-  border: 1px solid #ccc;
-}
-
 
