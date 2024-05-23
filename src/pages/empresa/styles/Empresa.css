@@ -52,6 +52,7 @@ span {
 
 .dev_img {
   max-width: 100%;
+  width: 200px;
   height: auto;
   display: block;
   opacity: 0.9;
