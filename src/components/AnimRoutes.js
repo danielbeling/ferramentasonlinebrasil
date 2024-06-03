@@ -30,6 +30,7 @@ import Number from '../pages/conversor/Number';
 import Gerador from '../pages/Gerador';
 import Avatar from '../pages/gerador/Avatar';
 import Dados from '../pages/gerador/Dadosfk';
+import Encurtador from '../pages/encurtador/Encurtador';
 
 
 import { Routes, Route } from 'react-router-dom'
@@ -67,6 +68,7 @@ const AnimRoutes = () => {
         <Route path="/geradores" element={<Gerador />} />
         <Route path="/gerador-avatar" element={<Avatar />} />
         <Route path="/gerador-dados" element={<Dados />} />
+        <Route path="/encurtador" element={<Encurtador />} />
 
 
       </Routes>
