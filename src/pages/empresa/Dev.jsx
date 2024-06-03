@@ -9,10 +9,10 @@ const Dev = () => {
       <div className="dev_container">
         <div className="dev_card">
           <div className="dev_content">
-            <h1 className="dev_titulo">Desenvolvedores do Conversor Brasil</h1>
-            <p className="dev_text">A equipe do Conversor Brasil está comprometida em tornar o seu dia mais fácil.
-              Criamos o Conversor Brasil para fornecer todas as informações que você precisa ao alcance das mãos.
-              Oferecemos uma variedade de conversores e estamos constantemente buscando novidades para resolver seus problemas.
+            <h1 className="dev_titulo">Desenvolvedores do Ferramentas Online Brasil</h1>
+            <p className="dev_text">A equipe do Ferramentas Online Brasil está comprometida em tornar o seu dia mais fácil.
+              Criamos o Ferramentas Online Brasil para fornecer todas as informações que você precisa ao alcance das mãos.
+              Oferecemos uma variedade de conversores e Geradores estamos constantemente buscando novidades para resolver seus problemas.
             </p>
           </div>
           <div className="dev_cont">
