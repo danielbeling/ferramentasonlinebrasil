@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Curriculo from '../img/curriculum.png';
 import Gerador from '../img/settings.png';
 import Conversor from '../img/convert.png';
+import Encurtador from '../img/broken-link.png';
 
 
 const Hero = () => {
@@ -14,6 +15,11 @@ const Hero = () => {
       icon: <img src={Curriculo} alt="" style={{ width: '30px', height: '30px' }} />,
       name: 'Criar Curriculo',
       to: '/curriculo'
+    },
+    {
+      icon: <img src={Encurtador} alt="" style={{ width: '30px', height: '30px' }} />,
+      name: 'Encurtador Link',
+      to: '/encurtador'
     },
     {
       icon: <img src={Gerador} alt="" style={{ width: '30px', height: '30px' }} />,
