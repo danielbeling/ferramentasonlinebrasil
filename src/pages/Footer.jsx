@@ -26,7 +26,7 @@ const Footer = () => {
 
           </div>
           <div className="footer-col">
-            <h4>Conversor Brasil</h4>
+            <h4>Ferramentas On Brasil</h4>
             <ul>
               <li><Link to="/" onClick={scrollToTop}>Página Inicial</Link></li>
               <li><Link to="/contact" onClick={scrollToTop}>Contato</Link></li>
