@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../img/banner.webp';
+import Banner from '../../img/image.jpeg';
 import Footer from '../Footer';
 import './styles/Empresa.css'
 
