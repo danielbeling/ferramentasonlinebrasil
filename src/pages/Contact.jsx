@@ -75,12 +75,6 @@ const Contact = () => {
             <p className="contact_text">
               Contacte-nos para relatar um problema, esclarecer dúvidas sobre o Conversor Brasil, ou apenas para dar uma sugestão..
             </p>
-            <div className="info">
-              <div className="information">
-                <FaRegEnvelope style={{ width: '40px' }} />
-                <p>brasilconversor@gmail.com</p>
-              </div>
-            </div>
             <div className="social-media">
               <p>Conecte-se conosco:</p>
               <div className="social-icons">
