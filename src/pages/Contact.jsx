@@ -73,7 +73,7 @@ const Contact = () => {
           <div className="contact-info">
             <h3 className="title">Vamos entrar em contato</h3>
             <p className="contact_text">
-              Contacte-nos para relatar um problema, esclarecer dúvidas sobre o Conversor Brasil, ou apenas para dar uma sugestão..
+              Contacte-nos para relatar um problema, esclarecer dúvidas sobre o Ferramentas Online Brasil, ou apenas para dar uma sugestão..
             </p>
             <div className="social-media">
               <p>Conecte-se conosco:</p>
