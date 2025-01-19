@@ -4,6 +4,7 @@ import AnimRoutes from './components/AnimRoutes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
 
+
 const App = () => {
 
   return (
