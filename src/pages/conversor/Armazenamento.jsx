@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from '../Footer';
 import { FaArrowDown } from "react-icons/fa";
+import AdBanner from '../../components/AdBanner';
 
 import './styles/Conversor.css';
 
@@ -92,6 +93,7 @@ const Armazenamento = () => {
           </div>
         </div>
       </div>
+      <AdBanner />
       <ToastContainer />
       <Footer />
     </>

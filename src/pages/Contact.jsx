@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Instagram from '../img/instagram.png';
 import Linkedin from '../img/linkedin.png';
 import Whatsapp from '../img/zap.png';
+import AdBanner from '../components/AdBanner';
 
 const Contact = () => {
   useEffect(() => {
@@ -138,6 +139,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

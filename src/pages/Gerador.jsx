@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 import './styles/global.css';
+import AdBanner from '../components/AdBanner';
 
 // Pages
 import Hero from './Hero';
@@ -142,6 +143,7 @@ const Gerador = () => {
       </div>
       <Hero />
       <Suggestion />
+       <AdBanner />
       <Doacao />
       <Footer />
     </>

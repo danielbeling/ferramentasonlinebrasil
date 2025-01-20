@@ -5,6 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { FaCopy } from 'react-icons/fa';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles/gerador.css';
+import AdBanner from '../../components/AdBanner';
 
 import Footer from '../Footer'
 
@@ -49,6 +50,7 @@ const CharacterNameGenerator = () => {
           <ToastContainer />
         </div>
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

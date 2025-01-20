@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Axios from 'axios';
 import './styles/gerador.css';
 import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 const Avatar = () => {
   const [seed, setSeed] = useState(1000);
@@ -47,6 +48,7 @@ const Avatar = () => {
           </div>
         </div>
       </div>
+      <AdBanner />
       <Footer />
     </>
   );

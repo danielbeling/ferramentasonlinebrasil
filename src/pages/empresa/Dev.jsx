@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../../img/image.jpeg';
 import Footer from '../Footer';
 import './styles/Empresa.css'
+import AdBanner from '../../components/AdBanner';
 
 const Dev = () => {
   return (
@@ -32,6 +33,7 @@ const Dev = () => {
           </div>
         </div>
       </div>
+       <AdBanner />
       <Footer />
     </>
   )

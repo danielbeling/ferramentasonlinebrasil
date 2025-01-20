@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import QrCode from 'qrcode';
 import './styles/gerador.css';
 import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 
 import placeholderImage from '../../img/scan.png';
@@ -67,6 +68,7 @@ function QrCodeComponent() {
         </div>
 
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

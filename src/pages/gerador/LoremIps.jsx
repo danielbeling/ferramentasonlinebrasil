@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaCopy, FaTrashRestore } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AdBanner from '../../components/AdBanner';
 
 import './styles/gerador.css';
 import Footer from '../Footer'
@@ -82,6 +83,7 @@ const LoremIpsumGenerator = () => {
           </div>
         )}
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>

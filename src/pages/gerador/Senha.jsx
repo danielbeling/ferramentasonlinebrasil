@@ -3,7 +3,8 @@ import Toastify from 'toastify-js';
 import 'toastify-js/src/toastify.css';
 import './styles/gerador.css';
 import { FaCopy } from "react-icons/fa6";
-import Footer from '../Footer'
+import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 
 
@@ -144,6 +145,7 @@ function Senha() {
           </button>
         </div>
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

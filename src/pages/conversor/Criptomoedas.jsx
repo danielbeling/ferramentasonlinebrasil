@@ -3,7 +3,7 @@ import Footer from '../Footer';
 import { FaArrowDown } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import AdBanner from '../../components/AdBanner';
 import './styles/Conversor.css';
 
 const CriptoParaMoeda = () => {
@@ -76,6 +76,7 @@ const CriptoParaMoeda = () => {
           </div>
         </div>
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>

@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import './styles/Conversor.css';
-import Footer from '../Footer'
+import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 const ImageToPDFConverter = () => {
   const [image, setImage] = useState(null);
@@ -71,6 +72,7 @@ const ImageToPDFConverter = () => {
           </div>
         )}
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

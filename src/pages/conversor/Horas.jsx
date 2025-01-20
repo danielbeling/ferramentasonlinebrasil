@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './styles/Conversor.css';
 import Footer from '../Footer';
 import { FaArrowDown } from "react-icons/fa";
+import AdBanner from '../../components/AdBanner';
 
 const Horas = () => {
   const [valorH, setValorH] = useState('');
@@ -86,6 +87,7 @@ const Horas = () => {
           </div>
         </div>
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>

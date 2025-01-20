@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../Footer';
 import './styles/Empresa.css';
 import Doar from './Doacao';
+import AdBanner from '../../components/AdBanner';
 
 const QuemSomos = () => {
   return (
@@ -33,6 +34,7 @@ const QuemSomos = () => {
         </div>
       </div>
       <Doar />
+      <AdBanner />
       <Footer />
     </>
   )

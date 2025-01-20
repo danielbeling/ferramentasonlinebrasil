@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles/Conversor.css';
-import Footer from '../Footer'
+import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 const NumberConverter = () => {
   const [inputValue, setInputValue] = useState('');
@@ -93,6 +94,7 @@ const NumberConverter = () => {
           <p className="number-result">Hexadecimal: {convertedValues.hexadecimal}</p>
         </div>
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

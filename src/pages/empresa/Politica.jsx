@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/Empresa.css'
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
+import AdBanner from '../../components/AdBanner';
 
 const PrivacyPolicy = () => {
   return (
@@ -31,7 +32,7 @@ const PrivacyPolicy = () => {
           </p>
         </div>
       </div>
-
+      <AdBanner />
       <Footer />
     </>
   );

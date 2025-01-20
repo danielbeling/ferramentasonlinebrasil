@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { FaCopy } from 'react-icons/fa';
 import './styles/gerador.css';
 import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 const FakeDataGenerator = () => {
   const [fakeData, setFakeData] = useState([]);
@@ -81,6 +82,7 @@ const FakeDataGenerator = () => {
         </div>
         <ToastContainer />
       </div>
+       <AdBanner />
       <Footer />
     </>
   );

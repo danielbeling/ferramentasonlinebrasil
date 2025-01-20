@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles/gerador.css';
 import Footer from '../Footer';
+import AdBanner from '../../components/AdBanner';
 
 import placeholderImage from '../../img/scan.png';
 
@@ -98,6 +99,7 @@ function QrCodeWifi() {
           </div>
         </div>
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>

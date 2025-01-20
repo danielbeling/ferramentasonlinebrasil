@@ -5,6 +5,7 @@ import './styles/gerador.css'
 import DisplayColors from './Color/DisplayColors';
 import FormColor from './Color/FormColor';
 import Footer from '../Footer'
+import AdBanner from '../../components/AdBanner';
 
 function Color() {
   const [list, setList] = useState(new Values('green').all(5));
@@ -15,6 +16,7 @@ function Color() {
         <FormColor setList={setList} />
         <DisplayColors list={list} />
       </div>
+       <AdBanner />
       <Footer />
     </>
   )

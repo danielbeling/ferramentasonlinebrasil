@@ -5,6 +5,7 @@ import { MdDelete } from "react-icons/md";
 import { LuArrowDownUp } from "react-icons/lu";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AdBanner from '../../components/AdBanner';
 
 import Footer from '../Footer';
 
@@ -148,6 +149,7 @@ function JsonToCsvConverter() {
           </div>
         </div>
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>

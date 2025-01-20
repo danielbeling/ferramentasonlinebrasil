@@ -3,7 +3,7 @@ import './styles/Conversor.css'  // Importa o arquivo CSS
 import { FaTrashRestore, FaCopy } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import AdBanner from '../../components/AdBanner';
 import Footer from '../Footer';
 
 const TextConverter = () => {
@@ -107,6 +107,7 @@ const TextConverter = () => {
           </div>
         )}
       </div>
+       <AdBanner />
       <ToastContainer />
       <Footer />
     </>
