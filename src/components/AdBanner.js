@@ -17,7 +17,7 @@ const AdBanner = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ width: "100%", maxWidth: "728px", height: "90px", margin: "0 auto" }}>
       {/* Bloco de anúncio do Google AdSense */}
       <ins
         className="adsbygoogle"
